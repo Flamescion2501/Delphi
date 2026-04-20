@@ -1,0 +1,26 @@
+[project]
+name = "delphi"
+version = "0.0.0"
+requires-python = ">=3.11"
+dependencies = [
+    "altair[all]",
+    "marimo[mcp,recommended]",
+    "polars[calamine]",
+    "torch==2.3.0",
+    "numpy<2.0",
+    "matplotlib",
+    "seaborn",
+    "shap",
+    "pandas",
+    "umap-learn",
+    "tqdm",
+    "statsmodels",
+]
+
+[[tool.uv.index]]
+name = "tsinghua"
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
+default = true
+
+[tool.marimo.runtime]
+output_max_bytes = 100_000_000_000

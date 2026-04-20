@@ -1,0 +1,17 @@
+exclude = [
+  "config/train_delphi_demo.py",
+  "config/train_delphi.py",
+  "data/ukb_simulated_data/example_ukb_rap_convert.ipynb",
+  "data/ukb_simulated_data/example_ukb_to_bin.ipynb",
+  "data/ukb_simulated_data/prepare.ipynb",
+  "evaluate_delphi.ipynb",
+  "sampling_trajectories.ipynb",
+  "shap_analysis.ipynb",
+  "configurator.py",
+  "evaluate_auc.py",
+  "model.py",
+  "plotting.py",
+  "shap-agg-eval.py",
+  "train.py",
+  "utils.py",
+]

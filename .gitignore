@@ -1,0 +1,10 @@
+__marimo__/
+__pycache__/
+.venv/
+
+config/
+!config/train_delphi.py
+!config/train_delphi_demo.py
+data/*/
+!data/ukb_simulated_data/
+Delphi-2M/
